@@ -5,3 +5,11 @@
 
 ## 과제 제출 과정
 * [과제 제출 방법](https://github.com/next-step/nextstep-docs/tree/master/precourse)
+
+## Features
+1. input parsing 관련 util class 구현 - [O]
+2. Game module 구현 - []
+    - 게임 규칙 관련 구현 - []
+    - 게임 진행 관련 구현 - []
+    - UI class 구현 - []
+3. Domain class(게임 진행 관련) 구현 - []
