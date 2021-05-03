@@ -12,4 +12,6 @@
     - 게임 규칙 관련 구현 - []
     - 게임 진행 관련 구현 - []
     - UI class 구현 - []
-3. Domain class(게임 진행 관련) 구현 - []
+3. Domain class(게임 진행 관련) 구현  
+    - Car class - [O]  
+    - CarCollection class(일급 객체) - []
