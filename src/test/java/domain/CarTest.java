@@ -20,7 +20,7 @@ class CarTest {
 
 		Car givenCar = new Car("kakao");
 		int given = 1;
-		givenCar.setMove(givenCar.getMove() + 1);
+		givenCar.increaseMove();
 		assertThat(given).isEqualTo(givenCar.getMove());
 	}
 

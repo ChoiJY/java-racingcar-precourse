@@ -11,23 +11,22 @@ public class Car {
 
 	public Car(String name) {
 		this.name = name;
-		this.move = 0;
+		this.move = new Move();
 	}
 
 	private final String name;
-	private int move;
+	private Move move;
 
-	public int getMove(){
-		return this.move;
+	public int getMove() {
+		return this.move.getMove();
 	}
 
 	public String getName() {
 		return name;
 	}
 
-	public void setMove(int move) {
-
-		this.move = move;
+	public void increaseMove() {
+		this.move.increaseMove();
 	}
 
 	/**
@@ -39,7 +38,8 @@ public class Car {
 
 		Random random = new Random(System.currentTimeMillis());
 		if (random.nextInt(9) >= 4) {
-			this.setMove(this.move + 1);
+			this.increaseMove();
+			// this.setMove(this.move + 1);
 		}
 
 		return this;
@@ -55,7 +55,7 @@ public class Car {
 		StringBuilder stringBuilder = new StringBuilder();
 		stringBuilder.append(this.name).append(" : ");
 
-		for (int idx = 0; idx < this.move; idx++) {
+		for (int idx = 0; idx < this.move.getMove(); idx++) {
 			stringBuilder.append("-");
 		}
 
