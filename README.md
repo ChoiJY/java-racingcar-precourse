@@ -8,10 +8,10 @@
 
 ## Features
 1. input parsing 관련 util class 구현 - [O]
-2. Game module 구현 - []
-    - 게임 규칙 관련 구현 - []
-    - 게임 진행 관련 구현 - []
-    - UI class 구현 - []
+2. Game module 구현  
+    - 게임 규칙 관련 구현 - [O]
+    - 게임 진행 관련 구현 - [O]
+    - UI class 구현 - [O]
 3. Domain class(게임 진행 관련) 구현  
     - Car class - [O]  
-    - CarCollection class(일급 객체) - []
+    - CarCollection class(일급 객체) - [O]
